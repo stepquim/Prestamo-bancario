@@ -9,7 +9,6 @@ class Test(unittest.TestCase):
         PrestamodePablo = Prestamo()
         msg = PrestamodePablo.validar_prestamo(pablo)
         self.assertEquals(msg,"Prestamo aceptado")
-		
     
 if __name__ == '__main__':
     unittest.main()
